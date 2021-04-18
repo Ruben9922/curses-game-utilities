@@ -23,4 +23,5 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     py_modules=["game_utilities"],
+    install_requires=["numpy"]
 )
