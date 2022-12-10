@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name="ruben-curses-game-utilities",
-    version="0.1.0",
+    version="0.2.0",
     author="Ruben Dougall",
     author_email="info.ruebz999@gmail.com",
     description="Utility package for command-line games using the curses library.",
