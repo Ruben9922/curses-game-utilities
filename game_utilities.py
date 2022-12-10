@@ -93,7 +93,7 @@ def align(stdscr, object_size, horizontal_alignment=HorizontalAlignment.LEFT, ve
 
 
 def center(stdscr, object_size):
-    return window_min(stdscr) + ((window_size(stdscr) - 1) // 2) - (object_size // 2)
+    return window_min(stdscr) + ((window_size(stdscr) - object_size) // 2)
 
 
 # Convert a 2D NumPy array into a set of tuples
